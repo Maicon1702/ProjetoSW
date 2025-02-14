@@ -39,7 +39,7 @@
 
             <div class="col-sm-4">
                 <h1 class="bg-success">Fornecedor</h1>
-                <p class="text-success">
+                <p class="text-suc>
                     Utilize esta opção para cadastrar os fornecedores dos produtos que serão vendidos online.
                 </p>
             </div>
