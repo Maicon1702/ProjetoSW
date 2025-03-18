@@ -54,7 +54,7 @@
                 </p>
 
                 <p>
-                    <a href="fornecedor.php" class="btn btn-primary">Clique aqui</a>
+                    <a href="fornecedor.php" class="btn btn-success">Clique aqui</a>
                 </p>
             </div>
 
@@ -68,7 +68,7 @@
                     Utilize esta opção para cadastrar os produtos que serão vendidos no site.
                 </p>
                 <p>
-                    <a href="produtos.php" class="btn btn-primary">Clique aqui</a>
+                    <a href="produtos.php" class="btn btn-warning">Clique aqui</a>
                 </p>
             </div>
 
@@ -78,7 +78,7 @@
                     Utilize esta opção para visualizar as vendas realizadas pelos clientes.
                 </p>
                 <p>
-                    <a href="vendas.php" class="btn btn-primary">Clique aqui</a>
+                    <a href="vendas.php" class="btn btn-secondary">Clique aqui</a>
                 </p>
             </div>
         </div>
@@ -86,4 +86,4 @@
     </div>
 
 </body>
-</html>
+</html>B
