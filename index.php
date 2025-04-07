@@ -42,7 +42,7 @@
                 </p>
 
                 <p>
-                    <a href="categorias.php" class="btn btn-danger">Clique aqui</a>
+                    <a href="categoria.php" class="btn btn-danger">Clique aqui</a>
                 </p>
 
             </div>
@@ -81,6 +81,16 @@
                     <a href="vendas.php" class="btn btn-secondary">Clique aqui</a>
                 </p>
             </div>
+
+            <div class="col-sm-4">
+                <h1 class="bg-danger">Formas de pagamentos</h1>
+                <p class="text-danger">
+                Utilize esta opção para cadastrar as categorias dos produtos que serão vendidos online.
+                </p>
+
+                <p>
+                    <a href="formaspagamento.php" class="btn btn-danger">Clique aqui</a>
+                </p>
         </div>
 
     </div>
