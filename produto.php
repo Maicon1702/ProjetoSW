@@ -22,7 +22,19 @@
 
                 <form action="#">
                     <p>
-                        Digite o nome do Produto<br>
+                        Descrição:<br>
+                        <input type="text" name="nome" class="form-control">
+                    </p>
+                    <p>
+                        Preço de venda:<br>
+                        <input type="text" name="nome" class="form-control">
+                    </p>
+                    <p>
+                        Categoria:<br>
+                        <input type="text" name="nome" class="form-control">
+                    </p>
+                    <p>
+                        Fornecedor:<br>
                         <input type="text" name="nome" class="form-control">
                     </p>
                     <p>

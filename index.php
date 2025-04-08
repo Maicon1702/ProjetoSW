@@ -68,7 +68,7 @@
                     Utilize esta opção para cadastrar os produtos que serão vendidos no site.
                 </p>
                 <p>
-                    <a href="produtos.php" class="btn btn-warning">Clique aqui</a>
+                    <a href="produto.php" class="btn btn-warning">Clique aqui</a>
                 </p>
             </div>
 
