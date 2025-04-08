@@ -22,25 +22,29 @@
 
                 <form action="#">
                     <p>
-                        Descrição:<br>
-                        <input type="text" name="nome" class="form-control">
+                        Digite a descrição do produto:<br>
+                        <input type="text" name="descricao" class="form-control">
                     </p>
                     <p>
-                        Preço de venda:<br>
-                        <input type="text" name="nome" class="form-control">
+                        Digite o preço de custo:<br>
+                        <input type="text" name="precocusto" class="form-control">
                     </p>
                     <p>
-                        Categoria:<br>
-                        <input type="text" name="nome" class="form-control">
+                        Digite o preço de venda:<br>
+                        <input type="text" name="precovenda" class="form-control">
                     </p>
                     <p>
-                        Fornecedor:<br>
-                        <input type="text" name="nome" class="form-control">
+                        Digite a categoria:<br>
+                        <input type="text" name="codcategoria" class="form-control">
+                    </p>
+                    <p>
+                        Digite o fornecedor:<br>
+                        <input type="text" name="codfornecedor" class="form-control">
                     </p>
                     <p>
                         <input type="submit" value="Cadastrar" class="btn btn-warning">
                         <input type="reset" value="Limpar" class="btn btn-warning">
-                        <a href="#" class="btn btn-secondary">Voltar</a>
+                        <a href="index.php" class="btn btn-secondary">Voltar</a>
                     </p>
 
                 </form>

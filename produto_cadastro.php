@@ -20,22 +20,34 @@
                 <h3 class="text-center p-3">Confirmação do Cadastro</h3>
                 
                 <div>
-                    <?php
-                        include "conexao.php";
-                        
-                        $nome = $_REQUEST["nome"];
+                <?php
 
-                        echo "Qual é a forma de pagamento? $nome <br>";
+                    include "conexao.php";
 
-                        $sql = "insert into produto_cadastro(nome)
-                         values(:nome)";
-                        
-                        $result = $conexao->prepare($sql);
-                        $result->bindValue(":nome", $nome);
-                        $result->execute();
+                    $descricao = $_REQUEST["descricao"];
+                    $precocusto = $_REQUEST["precocusto"];
+                    $precovenda = $_REQUEST["precovenda"];
+                    $codcategoria = $_REQUEST["codcategoria"];
+                    $codfornecedor = $_REQUEST["codfornecedor"];
 
-                        echo "<p>A forma de pagamento foi cadastrada com sucesso</p>";
-                    ?>
+                    echo "Nome do produto: $descricao <br>";
+                    echo "Preço de custo: $precocusto <br>";
+                    echo "Preço de venda: $precovenda <br>";
+                    echo "Categoria: $codcategoria <br>";
+                    echo "Fornecedor: $codfornecedor <br>";
+
+                    $sql = "insert into produto(descricao, precocusto, precovenda, codcategoria, codfornecedor)
+                    values (:descricao, :precocusto, :precovenda, :codcategoria, :codfornecedor)";
+
+        
+                    $result = $conexao->prepare($sql);
+                    $result->bindValue(":descricao", $nome);
+                    $result->bindValue(":login", $login);
+                    $result->bindValue(":senha", $senha);
+                    $result->execute();
+
+        echo "<p>O produto foi cadastrado com sucesso </p>";
+?>
                 </div>
             </div>
         </div>
