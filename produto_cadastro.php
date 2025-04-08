@@ -10,8 +10,8 @@
 </head>
 <body>
     
-    <div class="bg-primary text-white p-3 text-center">
-        <h1>Cadastro de Administradores</h1>
+    <div class="bg-warning text-white p-3 text-center">
+        <h1>Cadastro de Produto</h1>
     </div>
 
     <div class="container">
@@ -41,13 +41,15 @@
 
         
                     $result = $conexao->prepare($sql);
-                    $result->bindValue(":descricao", $nome);
-                    $result->bindValue(":login", $login);
-                    $result->bindValue(":senha", $senha);
+                    $result->bindValue(":descricao", $descricao);
+                    $result->bindValue(":precocusto", $precocusto);
+                    $result->bindValue(":precovenda", $precovenda);
+                    $result->bindValue(":codcategoria", $codcategoria);
+                    $result->bindValue(":codfornecedor", $codfornecedor);
                     $result->execute();
 
-        echo "<p>O produto foi cadastrado com sucesso </p>";
-?>
+                    echo "<p>O produto foi cadastrado com sucesso! </p>";
+                ?>
                 </div>
             </div>
         </div>

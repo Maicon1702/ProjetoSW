@@ -11,8 +11,8 @@
 </head>
 <body>
     
-    <div class="bg-primary text-white p-3 text-center">
-        <h1>Cadastro de Administradores</h1>
+    <div class="bg-danger text-white p-3 text-center">
+        <h1>Cadastro de Categoria</h1>
     </div>
 
     <div class="container">
@@ -38,7 +38,7 @@
                                 $result->bindValue(":nome", $nome);
                                 $result->execute();
 
-                                echo "<p>A categoria foi cadastrada com sucesso </p>";
+                                echo "<p>A categoria foi cadastrada com sucesso!</p>";
                     ?>
 
                 </div>

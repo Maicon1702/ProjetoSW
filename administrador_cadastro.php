@@ -43,7 +43,7 @@
                                 $result->bindValue(":senha", $senha);
                                 $result->execute();
 
-                                echo "<p>O administrador foi cadastrado com sucesso </p>";
+                                echo "<p>O administrador foi cadastrado com sucesso!</p>";
                     ?>
 
                 </div>

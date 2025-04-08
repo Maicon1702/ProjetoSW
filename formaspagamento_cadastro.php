@@ -10,8 +10,8 @@
 </head>
 <body>
     
-    <div class="bg-primary text-white p-3 text-center">
-        <h1>Cadastro de Administradores</h1>
+    <div class="bg-danger text-white p-3 text-center">
+        <h1>Meio de pagamento</h1>
     </div>
 
     <div class="container">
@@ -25,7 +25,7 @@
                         
                         $nome = $_REQUEST["nome"];
 
-                        echo "Qual é a forma de pagamento? $nome <br>";
+                        echo "Meio de pagamento: $nome <br>";
 
                         $sql = "insert into formaspagamento(nome)
                          values(:nome)";
@@ -34,7 +34,7 @@
                         $result->bindValue(":nome", $nome);
                         $result->execute();
 
-                        echo "<p>A forma de pagamento foi cadastrada com sucesso</p>";
+                        echo "<p>A forma de pagamento foi cadastrada com sucesso!</p>";
                     ?>
                 </div>
             </div>

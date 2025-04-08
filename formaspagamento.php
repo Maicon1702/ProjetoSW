@@ -27,8 +27,8 @@
                     </p>
             
                     <p>
-                        <input type="submit" value="Cadastrar" class="btn btn-primary">
-                        <input type="reset" value="Limpar" class="btn btn-success">
+                        <input type="submit" value="Cadastrar" class="btn btn-danger">
+                        <input type="reset" value="Limpar" class="btn btn-danger">
                         <a href="index.php" class="btn btn-secondary">Voltar</a>
                     </p>
 

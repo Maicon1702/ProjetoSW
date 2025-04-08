@@ -10,8 +10,8 @@
 </head>
 <body>
     
-    <div class="bg-primary text-white p-3 text-center">
-        <h1>Cadastro de Administradores</h1>
+    <div class="bg-success text-white p-3 text-center">
+        <h1>Cadastro de Fornecedor</h1>
     </div>
 
     <div class="container">
@@ -25,7 +25,7 @@
                         
                         $nome = $_REQUEST["nome"];
 
-                        echo "Digite o nome do fornecedor $nome <br>";
+                        echo "Fornecedor: $nome <br>";
 
                         $sql = "insert into fornecedor(nome)
                          values(:nome)";
@@ -34,7 +34,7 @@
                         $result->bindValue(":nome", $nome);
                         $result->execute();
 
-                        echo "<p>O fornecedor foi cadastrado com sucesso</p>";
+                        echo "<p>O fornecedor foi cadastrado com sucesso!</p>";
                     ?>
                 </div>
             </div>

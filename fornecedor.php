@@ -10,8 +10,8 @@
 </head>
 <body>
     
-    <div class="bg-warning text-white p-3 text-center">
-        <h1>Produto</h1>
+    <div class="bg-success text-white p-3 text-center">
+        <h1>Fornecedor</h1>
     </div>
 
     <div class="container">

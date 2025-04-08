@@ -21,13 +21,13 @@
                 <h3 class="text-center p-3">Preencha os dados abaixo</h3>
 
                 <form action="categoria_cadastro(novo).php">
-                    <p>
+                    <p> 
                         Digite o nome da Categoria<br>
                         <input type="text" name="nome" class="form-control">
                     </p>
                     <p>
-                        <input type="submit" value="Cadastrar" class="btn btn-primary">
-                        <input type="reset" value="Limpar" class="btn btn-success">
+                        <input type="submit" value="Cadastrar" class="btn btn-danger">
+                        <input type="reset" value="Limpar" class="btn btn-danger">
                         <a href="index.php" class="btn btn-secondary">Voltar</a>
                     </p>
 

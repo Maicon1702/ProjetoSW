@@ -38,7 +38,7 @@
                                 $result->bindValue(":nome", $nome);
                                 $result->execute();
 
-                                echo "<p>A forma de pagamento foi cadastrada com sucesso! </p>";
+                                echo "<p>A forma de pagamento foi cadastrada com sucesso!</p>";
                     ?>
 
                 </div>
