@@ -25,16 +25,16 @@
                         
                         $nome = $_REQUEST["nome"];
 
-                        echo "Digite o nome do fornecedor $nome <br>";
+                        echo "Qual é a forma de pagamento? $nome <br>";
 
-                        $sql = "insert into fornecedor(nome)
+                        $sql = "insert into formaspagamento(nome)
                          values(:nome)";
                         
                         $result = $conexao->prepare($sql);
                         $result->bindValue(":nome", $nome);
                         $result->execute();
 
-                        echo "<p>O fornecedor foi cadastrado com sucesso</p>";
+                        echo "<p>A forma de pagamento foi cadastrada com sucesso</p>";
                     ?>
                 </div>
             </div>

@@ -20,7 +20,7 @@
             <div class="col-sm-8 mx-auto mt-3 border border-primary">
                 <h3 class="text-center p-3">Preencha os dados abaixo</h3>
 
-                <form action="categoria_cadastro(novo).php">
+                <form action="formaspagamento_cadastro.php">
                     <p>
                         Qual é a forma de pagamento?<br>
                         <input type="text" name="nome" class="form-control">
