@@ -35,14 +35,18 @@
                         {
                     ?>
                     <tr>
-                        <td>230001</td>
-                        <td>Felipe Gabriel</td>
-                        <td>felipe</td>
+                        <td><?= $linha["codigo"]?></td>
+                        <td><?= $linha["nome"]?></td>
+                        <td><?= $linha["login"]?></td>
                     </tr>
                     <?php
                         }
                     ?>
                 </table>
+
+                <p>
+                    <a href="index.php" class="btn btn-primary">Voltar</a>
+                </p>
 
             </div>
         </div>
