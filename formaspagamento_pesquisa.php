@@ -11,7 +11,7 @@
 </head>
 <body>
         <div class="bg-danger text-white p-3 text-center">
-        <h1>Pesquisa de Categorias</h1>
+            <h1>Pesquisa sobre formas de pagamento</h1>
     </div>
     
     <div class="container">
@@ -20,12 +20,12 @@
                 <table class="table">
                     <tr>
                         <th>Código</th>
-                        <th>Nome</th>
+                        <th>Meio de pagamento</th>
                     </tr>
                     <?php
                         include "conexao.php";
 
-                        $sql = "select * from categoria";
+                        $sql = "select * from formaspagamento";
 
                         $result = $conexao->prepare($sql);
                         $result->execute();

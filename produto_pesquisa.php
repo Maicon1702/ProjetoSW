@@ -19,8 +19,12 @@
             <div class="col-sm-8 mx-auto">
                 <table class="table">
                     <tr>
-                        <th>Codigo</th>
-                        <th>Nome</th>
+                        <th>Código</th>
+                        <th>Descrição</th>
+                        <th>Preço do produto</th>
+                        <th>Preço da venda</th>
+                        <th>Categoria</th>
+                        <th>Fornecedor</th>
                     </tr>
                     <?php
                         include "conexao.php";
@@ -35,7 +39,11 @@
                     ?>
                     <tr>
                         <td><?= $linha["codigo"]?></td>
-                        <td><?= $linha["nome"]?></td>
+                        <td><?= $linha["descricao"]?></td>
+                        <td><?= $linha["precocusto"]?></td>
+                        <td><?= $linha["precovenda"]?></td>
+                        <td><?= $linha["codcategoria"]?></td>
+                        <td><?= $linha["codfornecedor"]?></td>
                     </tr>
                     <?php
                         }

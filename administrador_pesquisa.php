@@ -19,7 +19,7 @@
             <div class="col-sm-8 mx-auto">
                 <table class="table">
                     <tr>
-                        <th>Codigo</th>
+                        <th>Código</th>
                         <th>Nome</th>
                         <th>Login</th>
                     </tr>

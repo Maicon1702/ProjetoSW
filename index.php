@@ -31,7 +31,7 @@
 
                 <p>
                     <a href="administrador.php" class="btn btn-primary">Cadastro</a>
-                    <a href="administrador_pesquisa.php" class="btn btn-primary">Pesquisa</a>
+                    <a href="administrador_pesquisa.php" class="btn btn-dark">Pesquisa</a>
                 </p>
             </div> 
 
@@ -43,7 +43,7 @@
 
                 <p>
                     <a href="categoria.php" class="btn btn-danger">Clique aqui</a>
-                    <a href="categoria_pesquisa.php" class="btn btn-danger">Pesquisa</a>
+                    <a href="categoria_pesquisa.php" class="btn btn-dark">Pesquisa</a>
                 </p>
 
             </div>
@@ -56,7 +56,7 @@
 
                 <p>
                     <a href="fornecedor.php" class="btn btn-success">Clique aqui</a>
-                    <a href="fornecedor_pesquisa.php" class="btn btn-success">Pesquisa</a>
+                    <a href="fornecedor_pesquisa.php" class="btn btn-dark">Pesquisa</a>
                 </p>
             </div>
 
@@ -71,7 +71,7 @@
                 </p>
                 <p>
                     <a href="produto.php" class="btn btn-warning">Clique aqui</a>
-                    <a href="produto_pesquisa.php" class="btn btn-warning">Pesquisa</a>
+                    <a href="produto_pesquisa.php" class="btn btn-dark">Pesquisa</a>
                 </p>
             </div>
 
@@ -82,20 +82,21 @@
                 </p>
                 <p>
                     <a href="vendas.php" class="btn btn-secondary">Clique aqui</a>
-                    <a href="vendas_pesquisa.php" class="btn btn-secondary">Pesquisa</a>
+                    <a href="vendas_pesquisa.php" class="btn btn-dark">Pesquisa</a>
                 </p>
             </div>
 
             <div class="col-sm-4">
-                <h1 class="bg-danger">Formas de pagamentos</h1>
-                <p class="text-danger">
-                Utilize esta opção para cadastrar as categorias dos produtos que serão vendidos online.
+                <h1 style="background-color: #d63384; color: white;">Formas de pagamentos</h1>
+                <p style="color: #d63384;">
+                    Utilize esta opção para cadastrar as categorias dos produtos que serão vendidos online.
                 </p>
 
                 <p>
-                    <a href="formaspagamento.php" class="btn btn-danger">Clique aqui</a>
-                    <a href="formaspagamento_pesquisa.php" class="btn btn-danger">Pesquisa</a>
+                <a href="formaspagamento.php" class="btn" style="background-color: #d63384; color: white;">Clique aqui</a>
+                <a href="formaspagamento_pesquisa.php" class="btn btn-dark">Pesquisa</a>
                 </p>
+</div>
         </div>
 
     </div>

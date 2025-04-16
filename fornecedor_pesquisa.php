@@ -10,7 +10,7 @@
 
 </head>
 <body>
-        <div class="bg-danger text-white p-3 text-center">
+        <div class="bg-success text-white p-3 text-center">
         <h1>Pesquisa de Fornecedor</h1>
     </div>
     
@@ -19,7 +19,7 @@
             <div class="col-sm-8 mx-auto">
                 <table class="table">
                     <tr>
-                        <th>Codigo</th>
+                        <th>Código</th>
                         <th>Nome</th>
                     </tr>
                     <?php
@@ -43,7 +43,7 @@
                 </table>
 
                 <p>
-                    <a href="index.php" class="btn btn-danger">Voltar</a>
+                    <a href="index.php" class="btn btn-success">Voltar</a>
                 </p>
 
             </div>
